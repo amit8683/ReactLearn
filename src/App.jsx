@@ -11,12 +11,14 @@ import Anil from "./react_router/Anil";
 import Navlinks from "./react_router/Navlinks";
 import Contact from "./react_router/Contact";
 import NestedHome from "./react_router/nested/NestedHome";
+import GetApi from "./apiCalling/GetApi"
+import PostApi from "./apiCalling/PostApi";
 function App() {
  
 
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Navlinks />
       <Routes>
         <Route  path="/homes/" element={<File1 />} >
@@ -24,7 +26,9 @@ function App() {
         <Route path="about" element={<About />} />
         </Route>
       </Routes>
-      </BrowserRouter>  
+      </BrowserRouter>   */}
+    
+      <PostApi />
     </div>
   );
 }
