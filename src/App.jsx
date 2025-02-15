@@ -13,6 +13,9 @@ import Contact from "./react_router/Contact";
 import NestedHome from "./react_router/nested/NestedHome";
 import GetApi from "./apiCalling/GetApi"
 import PostApi from "./apiCalling/PostApi";
+import UpdatingArray from "./updatingObjectInState/UpdatingArrya"
+import GetAxios from "./axiosExample/GetAxios";
+import PostApiAxios from "./axiosExample/PostApiAxios";
 function App() {
  
 
@@ -28,8 +31,9 @@ function App() {
       </Routes>
       </BrowserRouter>   */}
     
-      <PostApi />
+      <GetAxios/>
     </div>
+    
   );
 }
 

@@ -9,13 +9,13 @@ const [data,setData]= useState({
     }
 })
 const handleSubmit =(val) => {
-   // data.name=val;
-    //console.log(data)
-//setData({name:val});
+    // data.name=val;
+    // console.log(data)
+
     setData({...data,name:val});
 }
 const handleCity =(val) => {
-   // data.address.city=val;
+  
     setData({...data,address:{...data.address,city:val}});
     
 }
