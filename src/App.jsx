@@ -16,6 +16,10 @@ import PostApi from "./apiCalling/PostApi";
 import UpdatingArray from "./updatingObjectInState/UpdatingArrya"
 import GetAxios from "./axiosExample/GetAxios";
 import PostApiAxios from "./axiosExample/PostApiAxios";
+import UseRefHook from "./useRefHook/useRefHook";
+import ControlledComponents from "./diffComponents/ControlledComponents";
+import UncontrolledComponents from "./diffComponents/UncontrolledComponents";
+import HOC from "./diffComponents/HOC";
 function App() {
  
 
@@ -31,7 +35,10 @@ function App() {
       </Routes>
       </BrowserRouter>   */}
     
-      <GetAxios/>
+      <UseRefHook/>
+      <ControlledComponents />
+      <UncontrolledComponents />
+      <HOC/>
     </div>
     
   );
